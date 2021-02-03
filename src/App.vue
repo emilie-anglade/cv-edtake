@@ -1,15 +1,18 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <!-- <h1>{{title}}</h1> -->
+  <CV />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import CV from './components/CV.vue'
 
 export default {
   name: 'App',
-  components: {
-    HelloWorld
+  components: { CV },
+  data() {
+    return {
+      title: 'Curriculum vitae'
+    }
   }
 }
 </script>
@@ -21,6 +24,7 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  margin: 0;
+  padding: 0;
 }
 </style>
