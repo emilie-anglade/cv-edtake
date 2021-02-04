@@ -1,0 +1,31 @@
+{
+  "general": {
+    "id": 1,
+    "title": "Développeuse web",
+    "name": "Emilie Anglade",
+    "city": "Toulouse", 
+    "mail": "anglade.em@gmail.com",
+    "tel": "06.25.46.64.41",
+    "github": "https://github.com/emilie-anglade"
+  }, 
+
+  "skills": [
+    {"id": 7, "title": "Compétences", "detail" : "HTML5, CSS3, React, MySQL, JavaScript, Node, Express, GitHub Projects"}, 
+    {"id": 8, "title": "Aptitudes", "detail" : "Travail en équipe, Maîtrise de la relation client"}, 
+    {"id": 9, "title": "Langues", "detail" : "Anglais"}, 
+    {"id": 10, "title": "Hobbies", "detail" : "Gastronomie, Littérature"}
+  ], 
+
+  "experiences" : [
+    {"id": 11 , "date": "Nov 2020 – present", "title": "Rankscoring, Développeuse web", "detail" : "Application web responsive: - outil de type scoring permettant d'évaluer la maturité d'une start-up, - génération d'un executive summary. < MySQL / Express / React / GitHub Projects >"},
+    {"id": 12 , "date": "Oct 2020 – Nov 2020", "title": "Lost on Mars, Développeuse web", "detail" : "Site web responsive: - présentation des photographies de Mars prises par les rovers de la Nasa, - possibilité de filtrer les photographies par robot, caméra et date de prise de vue. < React / API Mars Rover Photos / GitHub projects / SCRUM >"},
+    {"id": 13 , "date": "Nov 2020", "title": "Flint Store, Développeuse web", "detail" : "Hackathon WCS - plateforme de vente d'accessoires répondant à une problématique du passé: le confort à l'âge de pierre. < React / Reactstrap / Styled-components >"},
+    {"id": 14 , "date": "Mar 2012 – Aug 2020", "title": "GMF Assurances, Gestionnaire sinistres & relation client", "detail" : "Gestion de dossiers jusqu'à 60k€ en coopération avec différents intervenants et dans le respect de la législation en vigueur, Fidélisation, gestion de la satisfaction client et des réclamations, Accompagnement d'une équipe de 12 collaborateurs à la prise en main d'un nouveau SI."} 
+  ], 
+
+  "trainings" : [
+    {"id": 15 , "date": "2020 – 2021", "title": "Wild Code School, Développeur web et web mobile"},
+    {"id": 16 , "date": "2005 – 2007", "title": "I.U.T Paul Sabatier, D.U.T Information-Communication, option: communication des organisations"}
+  ]
+
+}
